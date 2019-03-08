@@ -1,5 +1,5 @@
-<p><span style="font-weight: 400;">Set up a private Ethereum Node</span></p>
-<p><span style="font-weight: 400;">Manual For Linux Distribution</span></p>
+# Set up a private Ethereum Node
+### Manual For Linux Distribution
 <p><span style="font-weight: 400;">First use Ethereum private network manager, called Puppeth:</span></p>
 <p>&nbsp;</p>
 <p><span style="font-weight: 400;">This tool lets you create a new Ethereum network down to the genesis block, bootnodes, miners and ethstats servers without the hassle that it would normally entail. Puppeth uses SSH to dial in to remote servers, and builds its network components out of Docker containers using the docker-compose toolset.</span></p>

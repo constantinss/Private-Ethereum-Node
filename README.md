@@ -119,3 +119,6 @@
 <p><em><span style="font-weight: 400;">Or see the specified network:</span></em></p>
 <p><em><span style="font-weight: 400;">&nbsp;&nbsp;&nbsp; </span></em><em><span style="font-weight: 400;">&gt;net.version</span></em></p>
 <p><em><span style="font-weight: 400;">&nbsp;&nbsp;&nbsp; </span></em><em><span style="font-weight: 400;">&ldquo;4224&rdquo;</span></em></p>
+<p><em><span style="font-weight: 400;">Send money to other account:</span></em></p>
+<p><em><span style="font-weight: 400;">&nbsp;&nbsp;&nbsp; &gt;eth.sendTransaction({from:eth.coinbase, to:eth.account[1], value: web3.toWei(10, "ether")})</span></em></p>
+<p>&nbsp;</p>

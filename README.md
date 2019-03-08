@@ -1,5 +1,20 @@
 # Set up a private Ethereum Node
 ### Manual For Linux Distribution
+<h3 id="99b2" class="graf graf--h3 graf-after--h3">Environment Setup</h3>
+<ol class="postList">
+<li id="2773" class="graf graf--li graf-after--h3">Create a working folder/directory for this exercise. It will be used to hold binaries and configuration files.</li>
+<li id="5f63" class="graf graf--li graf-after--li">Go the <a class="markup--anchor markup--li-anchor" href="https://geth.ethereum.org/downloads/" target="_blank" rel="nofollow noopener" data-href="https://geth.ethereum.org/downloads/">Go Ethereum (geth)</a> site and download the binary for your operating system. (the version might have changed by the time you are going through this).</li>
+</ol>
+<figure id="9d32" class="graf graf--figure graf-after--li">
+<div class="aspectRatioPlaceholder is-locked" style="max-width: 451px; max-height: 101px;">&nbsp;</div>
+</figure>
+<figure id="9d32" class="graf graf--figure graf-after--li">
+<div class="aspectRatioPlaceholder is-locked" style="max-width: 451px; max-height: 101px;">
+<div class="progressiveMedia js-progressiveMedia graf-image is-canvasLoaded is-imageLoaded" data-image-id="1*2NAiqyD3HKaWaDflBVTAoA.png" data-width="451" data-height="101" data-scroll="native"><img class="progressiveMedia-image js-progressiveMedia-image" src="https://cdn-images-1.medium.com/max/800/1*2NAiqyD3HKaWaDflBVTAoA.png" alt="" data-src="https://cdn-images-1.medium.com/max/800/1*2NAiqyD3HKaWaDflBVTAoA.png" /></div>
+</div>
+<figcaption class="imageCaption">Geth Website showing supported operating systems</figcaption>
+</figure>
+<p>&nbsp;</p>
 <p><span style="font-weight: 400;">First use Ethereum private network manager, called Puppeth:</span></p>
 <p>&nbsp;</p>
 <p><span style="font-weight: 400;">This tool lets you create a new Ethereum network down to the genesis block, bootnodes, miners and ethstats servers without the hassle that it would normally entail. Puppeth uses SSH to dial in to remote servers, and builds its network components out of Docker containers using the docker-compose toolset.</span></p>

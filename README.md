@@ -10,11 +10,11 @@ This tool lets you create a new Ethereum network down to the genesis block, boot
 
 You can start your terminal and type:
 
-_~/private$ puppeth_
+~/private$ puppeth
 
 Please specify a network name to administer (no spaces, hyphens or capital letters please)
 
-_\&gt; genesis\_network_
+>\&gt; genesis_network
 
 What would you like to do? (default = stats)
 
@@ -26,63 +26,51 @@ What would you like to do? (default = stats)
 
  4. Deploy network components
 
-_\&gt;2_
+>\&gt;2
 
-_What would you like to do? (default = create)_
+What would you like to do? (default = create)
 
-_ 1. Create new genesis from scratch_
+1. Create new genesis from scratch
 
-_ 2. Import already existing genesis_
+2. Import already existing genesis
 
-_\&gt; 1_
+>\&gt; 1
 
-_Which consensus engine to use? (default = clique)_
+Which consensus engine to use? (default = clique)
 
-_ 1. Ethash - proof-of-work_
+1. Ethash - proof-of-work
 
-_ 2. Clique - proof-of-authority_
+2. Clique - proof-of-authority_
 
-_\&gt; 1_
+>\&gt; 1
 
-_Which accounts should be pre-funded? (advisable at least one)_
+Which accounts should be pre-funded? (advisable at least one)
+>\&gt; 0x
 
-_\&gt; 0x_
+Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? (advisable yes)
+>\&gt; y
 
-_Should the precompile-addresses (0x1 .. 0xff) be pre-funded with 1 wei? (advisable yes)_
+Specify your chain/network ID if you want an explicit one (default = random)
+>\&gt; 4224
 
-_\&gt; y  _
+Configured new genesis block
 
-_Specify your chain/network ID if you want an explicit one (default = random)_
+What would you like to do? (default = stats)
+1. Show network stats
+2. Manage existing genesis
+3. Track new remote server
+4. Deploy network components
 
-_\&gt; 4224_
+>\&gt; 2
 
-_Configured new genesis block_
+1. Modify existing fork rules
+2. Export genesis configurations
+3. Remove genesis configuration
+>\&gt; 2_
 
-_What would you like to do? (default = stats)_
-
-_ 1. Show network stats_
-
-_ 2. Manage existing genesis_
-
-_ 3. Track new remote server_
-
-_ 4. Deploy network components_
-
-_\&gt; 2_
-
-_ 1. Modify existing fork rules_
-
-_ 2. Export genesis configurations_
-
-_ 3. Remove genesis configuration_
-
-_\&gt; 2_
-
-_Which folder to save the genesis specs into? (default = current)_
-
-_  Will create genesis\_network.json, genesis\_network-aleth.json, genesis\_network-harmony.json, genesis\_network-parity.json_
-
-_\&gt; [ENTER]_
+Which folder to save the genesis specs into? (default = current)
+Will create genesis\_network.json, genesis\_network-aleth.json, genesis\_network-harmony.json, genesis\_network-parity.json_
+>\&gt; [ENTER]
 
 Than exit from this process by [Ctrl + C].
 

@@ -1,6 +1,6 @@
 # Set up a private Ethereum Node
 ### Manual For Linux Distribution
-<h3 id="99b2" class="graf graf--h3 graf-after--h3">Environment Setup</h3>
+<li id="99b2" class="graf graf--h3 graf-after--h3">Environment Setup</li>
 <ol class="postList">
 <li id="2773" class="graf graf--li graf-after--h3">Create a working folder/directory for this exercise. It will be used to hold binaries and configuration files.</li>
 <li id="5f63" class="graf graf--li graf-after--li">Go the <a class="markup--anchor markup--li-anchor" href="https://geth.ethereum.org/downloads/" target="_blank" rel="nofollow noopener" data-href="https://geth.ethereum.org/downloads/">Go Ethereum (geth)</a> site and download the binary for your operating system. (the version might have changed by the time you are going through this).</li>

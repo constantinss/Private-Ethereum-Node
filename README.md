@@ -1,4 +1,7 @@
 # Set up a private Ethereum Node
+
+![alt text](https://cdn.allcryptomedia.com/wp-content/uploads/2018/11/23145659/eth-default.jpg)
+
 ### Manual For Linux Distribution
 <div id="99b2" class="graf graf--h3 graf-after--h3">Environment Setup</div>
 <ol class="postList">
